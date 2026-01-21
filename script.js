@@ -15,7 +15,7 @@ const observer = new IntersectionObserver(
 
 revealEls.forEach((el) => observer.observe(el));
 
-// Smooth scroll for nav links (optional, most browsers already do smooth scroll with CSS)
+// Smooth scroll for nav links 
 document.querySelectorAll('.nav-links a[href^="#"]').forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
